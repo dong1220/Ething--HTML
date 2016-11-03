@@ -1,0 +1,386 @@
+/*经销商*/
+.fl{float: left;}
+.fr{float: right;}
+.dealer .dealer-top{
+	width:100%;
+	height:600px;
+	position: relative;
+}
+.dealer-top .dealer-nav{
+	background: url(../img/dl-img/tu-bg.png) no-repeat;
+	width:735px;
+	height:141px;
+	position: absolute;
+	bottom:0;
+	left:130px;
+}
+.dealer-nav a{
+	display: inline-block;
+	border-right:1px solid #706f6f;
+	margin:20px 0;
+	width:32%;
+	text-align: center;
+}
+.dealer-nav a:last-of-type{border:none;}
+.dealer-nav a span{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	margin-top:15px;
+}
+/**/
+.dealer .dealer-t-cont{
+	width:805px;
+	margin: 40px auto;
+}
+.dealer-t-cont > .fl{
+	width:530px;
+}
+.dealer-t-cont > .fr{
+	width:230px;
+}
+.dealer-t-cont h3{
+	font-size: 24px;
+	color: #fff;
+	background: #ea6000;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	width:100%;
+}
+.dealer-t-cont ul li{
+	list-style: initial;
+	font-size: 16px;
+	color: #000;
+	line-height: 32px;
+	margin-left: 20px;
+}
+/**/
+.hotcat{
+	margin:40px auto;
+	position: relative;
+}
+.hotcat-top{
+	width:100%;
+	height:28px;
+	line-height: 28px;
+}
+.hotcat-top h3{
+	float: left;
+	font-size: 24px;
+	color: #ea6000;
+	margin:0 20px;
+}
+.hotcat-top span{
+	float: left;
+	border-top:1px solid #ea6000;
+	margin-top:14px;
+	width:432px;
+}
+.hotcat ul{
+	width:100%;
+}
+.hotcat  ul li {
+	width:25%;
+	float: left;
+	font-size: 12px;
+	color: #231815;
+	margin-top:20px;
+	text-align: center;
+}
+.hotcat  ul li h4{
+	font-weight: bold;
+}
+.hotcat  ul li p span{
+	color:#ea6000 ;
+}
+.hotcat  ul li p span i{
+	font-size: 20px;
+}
+.hotcat  ul li a{
+	display: block;
+	width:152px;
+	height:20px;
+	line-height: 20px;
+	text-align: center;
+	background: #ea6000;
+	color: #fff;
+	margin:0 auto;
+}
+.dealer .load{
+	display: block;
+	width:100%;
+	height:38px;
+	font-size: 14px;
+	background: #d9dada;
+	color: #231815;
+	text-align: center;
+	line-height: 38px;
+	margin: 20px 0 40px;
+}
+
+.hotcat .bounced{
+	position: absolute;
+	top:110px;
+	left:156px;
+	background: url(../img/dl-img/b-bg.png) no-repeat;
+	width:688px;
+	height: 450px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	display: none;
+}
+.bounced .btn_close{
+	position: absolute;
+	right: 10px;
+	top:10px;
+	width:18px;
+	height: 17px;
+	
+}
+.bounced  h3{
+	font-size: 20px;
+	margin:25px 0;
+}
+.bounced p {
+	text-align: left;
+}
+.bounced p >label{
+	width:160px;
+	text-align: right;
+	font-weight: 500;
+}
+.bounced p input{
+	width:140px;
+	height: 34px;
+	border:1px solid #ea6000;
+	line-height: 34px;
+	text-indent: 10px;
+	background: none;
+}
+.bounced p .radio{
+	margin-left: 10px;
+	display: inline-block;
+}
+.bounced p .yan{
+	margin-left: 10px;
+	display: inline-block;
+	background: url(../img/dl-img/b-bg1.png) no-repeat;
+	width:82px;
+	height:32px;
+	line-height: 32px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+}
+.bounced p textarea{
+	width:282px;
+	height:132px;
+	border:1px solid #ea6000;
+	text-indent: 10px;
+	background: none;
+	outline: none;
+	padding-top: 5px;
+}
+.bounced .submit{
+	background: url(../img/dl-img/b-bg2.png) no-repeat;
+	width:170px;
+	height:24px;
+	text-align: center;
+	line-height: 24px;
+	margin-right: 245px;
+	margin-top: 20px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?53jog3');
+    src:    url('../fonts/icomoon.eot?53jog3#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?53jog3') format('truetype'),
+        url('../fonts/icomoon.woff?53jog3') format('woff'),
+        url('../fonts/icomoon.svg?53jog3#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.form_group{
+	float: right;
+	margin-top:-38px;
+	margin-right: 170px;
+}
+.form_group .checkboxFive,.form_group .checkboxFristInput{
+	display: inline-block;
+}
+.checkboxFive {
+	width: 24px;
+	height:24px;
+	line-height: 24px;
+	text-align: center;
+	margin-right: 10px;
+	position: relative;	
+	vertical-align: middle;
+}
+.checkboxFive input[type=checkbox]{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 0;
+  	left: 0;
+  	z-index: 9;
+  	opacity: 0;
+  	filter: alpha(opacity:0);
+}
+.checkboxFive label {
+	cursor: pointer;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	top: 0;
+  	left: 0;
+	background: none;
+	z-index: 2;
+	border:1px solid #ea6000;
+	
+}
+.checkboxFive label:after {
+	font-family: 'icomoon';
+	opacity: 0;
+	filter: alpha(opacity:0);
+	content: '\e900';
+	position: absolute;
+	cursor: pointer;
+	top: -2px;
+	left:1px;
+	font-size: 20px;
+	color: #ea6000;
+}
+.checkboxFive label.hide:after {
+	font-family: 'icomoon';
+	content: '';
+	position: absolute;
+	cursor: pointer;
+	top: -2px;
+	left:1px;
+	font-size: 20px;
+	color: #ea6000;
+}
+.checkboxFive input[type=checkbox]:checked + label:after {
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+.form_group label{
+	font-size:14px;
+	color:#fff;
+	font-weight: 500;
+}
+
+/**/
+.goods .goods-nav{
+	margin-top: 20px;
+	text-align:center;
+}
+.goods-nav a{
+	padding:0 10px;
+	font-size: 14px;
+	color: #231815;
+	margin: 0 10px;
+	position: relative;
+}
+.goods-nav a.active:before,.goods-nav a.active:after{
+	display: inline-block;
+}
+.goods-nav a:after {
+	position: absolute;
+	right: -9px;
+	display: none;
+	top: 50%;
+	margin-top: -3px;
+	content: "";
+	width: 6px;
+	height: 6px;
+	background: url(../img/arrow_left.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+.goods-nav a:before{
+	position: absolute;
+	display: none;
+	left: -9px;
+	top: 50%;
+	margin-top: -3px;
+	content: "";
+	width: 6px;
+	height: 6px;
+	background: url(../img/arrow_right.png) no-repeat 0 0;
+	background-size: 100%;
+}
+.goods-nav a.active{
+	color:#ea6000;
+	/*background: url(../img/dl-img/icon1.png) no-repeat left center, url(../img/dl-img/icon3.png) no-repeat right center;*/
+}
+.goods ul{
+	width:100%;
+}
+.goods  ul li {
+	width:25%;
+	float: left;
+	font-size: 12px;
+	color: #231815;
+	margin-top:20px;
+	height:220px;
+	text-align: center;
+	position: relative;
+}
+.goods  ul li h4{
+	font-weight: bold;
+}
+.goods  ul li p span{
+	color:#ea6000 ;
+}
+.goods  ul li p span i{
+	font-size: 20px;
+}
+.goods  ul li >span{
+	position: absolute;
+	top:40px;
+	right: 25px;
+}
+/**/
+.dealer-bot >dl dd{
+	margin-left: 20px;
+	color: #231815;
+	font-size: 14px;
+}
+.dealer-bot >dl dd >img{
+	float: right;
+}
+.dealer-bot >dl dd h3{
+	margin-top:80px;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.dealer-bot >dl dd p span{
+	margin-left: 10px;
+}
+.dealer-bot >dl dd >span{
+	color: #cf7c1a;
+	display: block;
+	margin-bottom: 10px;
+}
+.dealer-bot-word{
+	margin:35px 80px;
+	font-size: 14px;
+	color: #231815;
+}
+.midd{
+	padding-left: 30px;
+}
+.icon_via{
+	display: inline-block;
+	vertical-align: middle;
+	width: 25px;
+	height: 25px;
+	background: url(../img/by_img/icon_ok.png) no-repeat 0 0;
+	background-size: 100% 100%;
+	margin-right: 5px;
+}
